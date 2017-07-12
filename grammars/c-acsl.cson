@@ -35,7 +35,8 @@
         'name': 'keyword.operator.logical.acsl'
       }
       {
-        'match': '\\\\valid'
+        'match': '\\\\(valid|old)'
+        'name': 'support.function.acsl'
       }
     ]
   }
