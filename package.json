@@ -9,7 +9,7 @@
     "ANSI/ISO",
     "specification"
   ],
-  "repository": "https://github.com/atom/language-c-acsl",
+  "repository": "https://Giltho@bitbucket.org/Giltho/atom-language-acsl.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
