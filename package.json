@@ -1,0 +1,17 @@
+{
+  "name": "language-c-acsl",
+  "version": "0.0.0",
+  "description": "Supports C and ACSL comments",
+  "keywords": [
+    "language",
+    "grammar",
+    "acsl",
+    "ANSI/ISO",
+    "specification"
+  ],
+  "repository": "https://github.com/atom/language-c-acsl",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
