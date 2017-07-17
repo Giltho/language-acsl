@@ -1,3 +1,4 @@
-# PackageName language package
+# ACSL support in Atom
 
-A short description of your language package.
+
+Add syntax highlighting to [ACSL (ANSI/ISO C Specification language)](https://frama-c.com/acsl.html) language in C comments starting with `/*@`
