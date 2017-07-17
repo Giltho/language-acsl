@@ -3,7 +3,7 @@
 
 'scopeName': 'source.acsl'
 'name': 'ACSL'
-'injectionSelector': 'L:source.c'
+'injectionSelector': 'L:source.c, L:source.cpp'
 'patterns': [
   {
     'begin': '/\\*@'
