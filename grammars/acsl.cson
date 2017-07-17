@@ -36,7 +36,7 @@
         |else|ensures|enum|exits|float|for|frees|if|inductive|int|integer
         |invariant|global|label|lemma|logic|long|loop|pragma|predicate|reads
         |real|requires|returns|short|signed|sizeof|slice|impact|struct
-        |terminates|type|union|unsigned|variant|void)\\b'
+        |terminates|type|union|unsigned|variant|void|\\\\from)\\b'
         'name': 'keyword.acsl'
       }
       {
@@ -49,6 +49,10 @@
       }
       {
         'match': '\\b\\w+(?=\\((\\w+\\s*,?\\s*)*\\))'
+        'name': 'entity.name.function.acsl'
+      }
+      {
+        'match': '(?=\\brequires\\s*)\\w+(?=\\s*:)'
         'name': 'entity.name.function.acsl'
       }
       {
