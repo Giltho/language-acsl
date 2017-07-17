@@ -55,6 +55,28 @@
         'match': '\\b\\w+(?=\\{(\\w+\\s*,?\\s*)*\\}(\\((\\w+\\s*,?\\s*)*\\))?)'
         'name': 'entity.name.function.acsl'
       }
+      {
+        'begin': '"'
+        'beginCaptures':
+          '0':
+            'name': 'punctuation.definition.string.begin.acsl'
+        'end': '"'
+        'endCaptures':
+          '0':
+            'name': 'punctuation.definition.string.end.acsl'
+        'name': 'string.quoted.double.include.ascl'
+      }
+      {
+        'begin': '\''
+        'beginCaptures':
+          '0':
+            'name': 'punctuation.definition.string.begin.acsl'
+        'end': '\''
+        'endCaptures':
+          '0':
+            'name': 'punctuation.definition.string.end.acsl'
+        'name': 'string.quoted.single.acsl'
+      }
     ]
   }
 ]
