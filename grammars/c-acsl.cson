@@ -5,6 +5,7 @@
 'name': 'ACSL'
 'fileTypes': [
   'c'
+  'h'
 ]
 'injectionSelector': 'L:source.c'
 'patterns': [
@@ -13,6 +14,10 @@
     'end': '\\*/'
     'name': 'block.acsl'
     'patterns': [
+      {
+        'match': '//\\S*\\n'
+        'name': 'comment.line.double-slash.acsl'
+      }
       {
         'match': '\\\\\\b(true|false|result|nothing)\\b'
         'name': 'constant.boolean.acsl'
