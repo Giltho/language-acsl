@@ -11,6 +11,15 @@
     'name': 'block.acsl'
     'patterns': [
       {
+        'match': '(\\\\from|\\b(assert|assigns|assumes|allocates|axiom|axiomatic|behavior
+        |behaviors|breaks|case|char|complete|continues|decreases|disjoint|double
+        |else|ensures|enum|exits|float|for|frees|if|inductive|int|integer
+        |invariant|global|label|lemma|logic|long|loop|pragma|predicate|reads
+        |real|requires|returns|short|signed|sizeof|slice|impact|struct
+        |terminates|type|union|unsigned|variant|void))\\b'
+        'name': 'keyword.acsl'
+      }
+      {
         'match': '//\\S*\\n'
         'name': 'comment.line.double-slash.acsl'
       }
@@ -29,15 +38,6 @@
       {
         'match': '(\\+|-|!|~|\\*|&)'
         'name': 'keyword.operator.unary.acsl'
-      }
-      {
-        'match': '\\b(assert|assigns|assumes|allocates|axiom|axiomatic|behavior
-        |behaviors|breaks|case|char|complete|continues|decreases|disjoint|double
-        |else|ensures|enum|exits|float|for|frees|if|inductive|int|integer
-        |invariant|global|label|lemma|logic|long|loop|pragma|predicate|reads
-        |real|requires|returns|short|signed|sizeof|slice|impact|struct
-        |terminates|type|union|unsigned|variant|void)\\b'
-        'name': 'keyword.acsl'
       }
       {
         'match': '\\\\\\b(valid|forall|exists|old)\\b'
