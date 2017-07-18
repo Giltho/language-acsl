@@ -20,7 +20,8 @@
         'name': 'keyword.acsl'
       }
       {
-        'match': '//\\S*\\n'
+        'begin': '//'
+        'end': '\\n'
         'name': 'comment.line.double-slash.acsl'
       }
       {
@@ -48,7 +49,7 @@
         'name': 'punctuation.terminator.statement.acsl'
       }
       {
-        'match': '\\b\\w+(?=\\((\\w+\\s*,?\\s*)*\\))'
+        'match': '\\b\\w+(?=\\((\\\\?\\w+\\s*,?\\s*)*\\))'
         'name': 'entity.name.function.acsl'
       }
       {
