@@ -1,6 +1,6 @@
 {
   "name": "language-acsl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Add support for ACSL in C comments in atom",
   "keywords": [
     "language",
