@@ -1,7 +1,7 @@
 {
-  "name": "language-c-acsl",
+  "name": "language-acsl",
   "version": "0.0.0",
-  "description": "Supports C and ACSL comments",
+  "description": "Add support for ACSL in C comments in atom",
   "keywords": [
     "language",
     "grammar",
@@ -9,8 +9,8 @@
     "ANSI/ISO",
     "specification"
   ],
-  "repository": "https://Giltho@bitbucket.org/Giltho/atom-language-acsl.git",
-  "license": "MIT",
+  "repository": "https://github.com/Giltho/language-acsl.git",
+  "license": "LGPL-2.1",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   }
